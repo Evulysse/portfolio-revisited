@@ -1,21 +1,24 @@
 
 .parent {
-    border: 3px solid red;
+    border: 3px dotted blueviolet;
     display: flex;
-    padding: 10px;
+    padding: 0px;
     flex-direction: column;
     
 }
 
 .header {
-        border: 3px solid orange;
+    border: 3px solid orange;
     padding: 10px;
     margin: 10px;
     display: flex;
+    background-image: none;
 }
 
 .title {
-    border: 3px solid orange;
+    border: 3px solid brown;
+    background-color: white;
+    background-image: none;
     padding: 10px;
     margin: 10px;
     font-weight: bold;
@@ -37,6 +40,8 @@
     padding: 100px;
     margin: 10px;
     flex: 2;
+
+    background-image: none;
 }
 
 .sections {
@@ -44,28 +49,35 @@
     padding: 10px;
     margin: 10px;
     display: flex;
+    background-image: none;
 }
 
 .github {
-    border: 3px solid orange;
-    padding: 10px;
+    
+    padding-bottom: 50px;
     margin: 10px;
+    display: flex;
+    background-image: none;
+    background-color: transparent;
+
     
 }
 .personal {
     border: 3px solid orange;
     padding: 10px;
-    margin: 10px;
+    margin-bottom: 50px;
+    margin-top: 20px;
 } 
 
 .profile {
     border: 3px solid orange;
     padding: 10px;
-    margin: 10px;
+    margin-left: 100px;
+    margin-bottom: 60px;
     
 }
 .button {
-    background-color: blue;
+    background-color:white;
     border: none;
     color: grey;
     padding: 0px;
@@ -78,9 +90,24 @@
     border-radius: 2px;
 }
 
+.button1 {
+    background-color: white;
+    border: none;
+    color: grey;
+    padding: 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 2px;
+}
 .more {
-    border: 3px solid orange;
-    padding-left: 200px;
-    margin: 10px;
+    background-image: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 90px;
+    margin-bottom: 90px;
     display: flex;
 }
